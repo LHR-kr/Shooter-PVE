@@ -27,7 +27,7 @@ public:
 
 	UFUNCTION(BlueprintPure)
 	bool GetIsDead()const;
-	void Shoot();
+	virtual void Shoot();
 	UFUNCTION(BlueprintPure)
 	float GetHPPercent()const;
 private:
